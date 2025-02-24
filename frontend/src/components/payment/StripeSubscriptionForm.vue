@@ -38,7 +38,7 @@
 
     onMounted(async () => {
         try {
-            stripe.value = await loadStripe('pk_test_51C19VNGin0JfRTbQbj3b6ypR0xTxiBjmA9Sb6ybb7FoXf1QljY9ezAVvdG2vGXzCldfJVxvvx0JMCEEdAvRbD1wz00nlQVpTrG')
+            stripe.value = await loadStripe('YOUR STRIPE PUBLISHABLE KEY HERE')
             elements.value = stripe.value.elements()
             
             card.value = elements.value.create('card')
