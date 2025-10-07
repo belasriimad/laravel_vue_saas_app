@@ -82,7 +82,7 @@
     const authStore = useAuthStore()
     const productStore = useProductStore()
 
-    //define the store
+    //define the router
     const router = useRouter()
 
     //define the toast
